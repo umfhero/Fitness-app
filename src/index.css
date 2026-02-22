@@ -1,0 +1,39 @@
+/* =========================
+   DESIGN SYSTEM FOUNDATION
+========================= */
+
+/* Typography + Scale */
+:root {
+  --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+
+  /* Colour System */
+  --bg-main: #f5f5f4;
+  --bg-surface: #ffffff;
+  --bg-muted: #e7e5e4;
+
+  --border-subtle: #d6d3d1;
+
+  --text-primary: #1c1917;
+  --text-secondary: #57534e;
+
+  --accent: #0f172a;
+  --accent-hover: #1e293b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg-main);
+  color: var(--text-primary);
+}
